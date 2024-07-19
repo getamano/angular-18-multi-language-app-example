@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   name = 'Aman';
 
-  genderCode = 1;
+  genderCode = 0;
   today: number = Date.now();
 
   male() {
@@ -19,9 +19,5 @@ export class HomeComponent {
 
   female() {
     this.genderCode = 1;
-  }
-
-  other() {
-    this.genderCode = 2;
   }
 }

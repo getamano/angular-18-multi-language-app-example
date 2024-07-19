@@ -68,7 +68,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="5485045432871737355" datatype="html">
-        <source> Gender: <x id="ICU" equiv-text="{genderCode, select, 0 {male} 1 {female} other {other answer}}" xid="942937716535918063"/>
+        <source> Gender: <x id="ICU" equiv-text="{genderCode, select, 0 {male} 1 {female}}" xid="942937716535918063"/>
 </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
@@ -76,7 +76,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="942937716535918063" datatype="html">
-        <source>{VAR_SELECT, select, 0 {male} 1 {female} other {other answer}}</source>
+        <source>{VAR_SELECT, select, 0 {male} 1 {female}}</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
           <context context-type="linenumber">3,5</context>
