@@ -1,0 +1,16 @@
+{
+  "projects": {
+    "default": "i18n-app-1a05f"
+  },
+  "targets": {
+    "i18n-app-1a05f": {
+      "hosting": {
+        "i18n-app": [
+          "i18n-app-1a05f"
+        ]
+      }
+    }
+  },
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}

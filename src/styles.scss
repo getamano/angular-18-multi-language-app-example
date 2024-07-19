@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: #fff;
+}
+
+.header-container h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.header-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+.header-container ul li {
+  display: inline;
+}
+
+.header-container ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-container ul li a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+p {
+  padding: 0 20px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.gender-selection {
+  padding: 0 20px;
+  margin-top: 20px;
+}
+
+.gender-selection span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.gender-selection button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.gender-selection button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #343a40;
+  color: #fff;
+}

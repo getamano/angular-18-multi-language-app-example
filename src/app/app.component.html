@@ -1,0 +1,28 @@
+<div class="header-container">
+  <!-- @@welcomeID is a static ID, it won't change each time we run ng extract-i18n -->
+  <h2 i18n="main header | Welcoming message@@welcomeID">Hello, Welcome!</h2>
+
+  <ul>
+    @for (locale of localesList; track locale) {
+    <li>
+      <a href="/{{ locale.code }}/">
+        {{ locale.label }}
+      </a>
+    </li>
+    }
+  </ul>
+  <hr />
+</div>
+
+<!-- example how to translate attribute -->
+<p>
+  <a i18n i18n-href i18n-title href="/en/home" title="Home"> Home </a>
+
+  <a i18n i18n-href i18n-title href="/en/portfolio" title="My Portfolio">
+    Portfolio
+  </a>
+</p>
+<router-outlet> </router-outlet>
+<p>{{ createdBy }}</p>
+
+<ng-container i18n>Copyright 2024</ng-container>
