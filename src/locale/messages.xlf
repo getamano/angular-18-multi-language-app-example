@@ -67,19 +67,18 @@
           <context context-type="linenumber">20</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="5485045432871737355" datatype="html">
-        <source> Gender: <x id="ICU" equiv-text="{genderCode, select, 0 {male} 1 {female}}" xid="942937716535918063"/>
-</source>
+      <trans-unit id="4239225351307163880" datatype="html">
+        <source> Gender: <x id="ICU" equiv-text="{genderCode, select, 0 {male} 1 {female}}" xid="1844632466255035896"/> </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">3,5</context>
+          <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="942937716535918063" datatype="html">
+      <trans-unit id="1844632466255035896" datatype="html">
         <source>{VAR_SELECT, select, 0 {male} 1 {female}}</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home/home.component.html</context>
-          <context context-type="linenumber">3,5</context>
+          <context context-type="linenumber">2,3</context>
         </context-group>
       </trans-unit>
       <trans-unit id="860057473612690263" datatype="html">
